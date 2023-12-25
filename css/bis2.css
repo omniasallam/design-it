@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.layer h2{
+  text-align: center;
+  color: rgb(242, 201, 173);
+  margin-top: 114px;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.clr{
+  clear: both;
+}
+.layer{
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+ 
+}
+.header{
+    background-image: url(./../minimalistic-composition-living-room-design-sofa-coffe-table-plant-books-decoration-pillows-plaid-carpet-wood-paneling-196414861.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.user label{
+  font-size: large;
+  color: navajowhite;
+  padding-left: 443px;
+  
+}
+input[type=text]{
+  text-align: center;
+  position: relative;
+  left: 443px;
+  top: 12px;
+  width: 20%;
+  padding-bottom: 5px;
+  border: 2px solid chocolate;
+  border-radius: 6px;
+}
+.pass label{
+  font-size: large;
+  color: navajowhite;
+  padding-left: 443px;
+}
+input[type=password]{
+  text-align: center;
+  position: relative;
+  left: 443px;
+  top: 12px;
+  width: 20%;
+  padding-bottom: 5px;
+  border: 2px solid chocolate;
+  border-radius: 6px;
+}
+.button{
+  margin-top: 35px;
+}
+.button a{
+  position: relative;
+  left: 542px;
+  top: -22px;
+  width: 10%;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  color:black ;
+  border-radius: 7px;
+  border:  1px solid saddlebrown ;
+  background-color: coral;
+padding: 10px;
+
+}
+.button a:hover{
+  background-color:chocolate; 
+  color: navajowhite;
+}
+input[type=checkbox]{
+  position: relative;
+  left: 443px;
+  top: 12px;
+}
+.check label{
+  position: relative;
+  left: 443px;
+  top: 12px;
+ 
+  color:navajowhite;
+}
+.forget label{
+  position: relative;
+  left: 443px;
+  top: -20px;
+  color:chocolate;
+}
+.forget a{
+  position: relative;
+  left: 443px;
+  top: -20px;
+  color: chocolate;
+}
+.forget a:hover{
+  color: navajowhite;
+}
+.error{
+  text-align: center;
+ padding-bottom: 26px;
+ color:red;
+ font-size: larger;
+}

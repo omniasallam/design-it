@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+.clr{
+  clear: both;
+}
+.layer{
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+ 
+}
+.header{
+    background-image: url(./../minimalistic-composition-living-room-design-sofa-coffe-table-plant-books-decoration-pillows-plaid-carpet-wood-paneling-196414861.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.header p{
+    color:black;
+    font-size: 50px;
+    padding-left: 833px;
+    position: absolute;
+    top: 20%;
+   left:5% ;
+   font-weight: bold;
+    
+}
+.one {
+position: absolute;
+right: -225px;
+top: 76px;
+}
+.two {
+ position: absolute;  
+ right: -260px; 
+ top: 150px; 
+}
+/* statr nav */
+ .navigation{ 
+  width: 100%;
+  display: flex;
+ }
+ 
+ .navigation a {
+color:white;
+text-decoration: none;
+
+}
+.navigation a:hover{
+    color: rgb(224, 139, 36);
+    font-weight: bold;
+  } 
+.home {
+ font-size:25px;
+font-weight: bold;
+}
+.btn{
+font-size: 20px;
+margin-left: auto;
+margin-top: 15px;
+padding-right: 10px;
+}
+/* start  living room*/
+
+.living-head h2{
+    text-align: center;
+    color:chocolate;
+    font-size: xx-large;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.living-image{
+  width: 30%;
+  float: left;
+  padding-left: 25px;
+  
+}
+.living-image img{
+  width: 100%;
+  padding-bottom: 15px;
+}
+  /* start bed room */
+  .bed-head h2{
+    text-align: center;
+    color:chocolate;
+    font-size: xx-large;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.bed-image{
+  width: 30%;
+  float: left;
+  padding-left: 25px;
+  
+}
+.bed-image img{
+  width: 100%;
+  padding-bottom: 15px;
+}
+/* start bath room */
+.bath-head h2{
+  text-align: center;
+  color:chocolate;
+  font-size: xx-large;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+.bath-image{
+width: 30%;
+float: left;
+padding-left: 25px;
+
+}
+.bath-image img{
+width: 100%;
+padding-bottom: 15px;
+}
+/* start kitchen */
+.kit-head h2{
+  text-align: center;
+  color:chocolate;
+  font-size: xx-large;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+.kit-image{
+width: 30%;
+float: left;
+padding-left: 25px;
+
+}
+.kit-image img{
+width: 100%;
+padding-bottom: 15px;
+}
+/* start footer */
+.footer{
+  background-color: chocolate;
+  height: 67px;
+}
+.footer  a{
+ padding-left: 593px;
+ color: rgb(243, 223, 208);
+ text-decoration: none;
+ font-size: larger;
+}
+.footer a:hover{
+  color: rgb(224, 139, 36);
+  font-weight: bold;
+}
+.mail{
+  display: flex;
+  justify-content: space-around;
+}
+.mail i{
+  padding-top: 22px;
+  padding-left: 15px;
+}
+.popup {
+  display: inline-block;
+  cursor: pointer;
+}
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-top: 15px;
+  padding-right: 10px;
+  z-index: 1;
+  
+}
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
